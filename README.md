@@ -36,6 +36,44 @@ This fullstack project leverages a powerful and modern tech stack:
     🔐 Implement more validation and new features.
     🧪 Expand test coverage with Jest.
 
+
+🔧 Installation Instructions
+    Step 1: Install Dependencies
+
+    You need to install dependencies for both the backend and frontend.
+
+        Navigate to the back-end directory and run:
+
+        bash
+
+    cd back-end
+    npm install
+
+    Navigate to the front-end directory and run:
+
+    bash
+
+        cd ../front-end
+        npm install
+
+    Step 2: Run the Project
+
+    Once dependencies are installed, you can start the entire system using Docker.
+
+        Make sure you are in the back-end directory:
+
+        bash
+
+    cd ../back-end
+
+    Start the application using Docker Compose:
+
+    bash
+
+        docker compose up
+
+    Note: Make sure that MySQL Workbench or any other MySQL instance is not running on your machine to avoid port conflicts with the MySQL container.
+
 🔗 Feel free to explore the code, contribute, and send suggestions!
 
 
@@ -76,4 +114,42 @@ Este projeto fullstack é construído com uma stack poderosa e moderna:
     ✨ Melhorar a interface com componentes mais clean do Material UI.
     🔐 Implementar mais validações e novas funcionalidades.
     🧪 Ampliar a cobertura de testes unitários e funcionais com Jest.
+
+🔧 Instruções de Instalação
+    Passo 1: Instalar Dependências
+
+    Você precisará instalar as dependências tanto no diretório do backend quanto no frontend.
+
+        Navegue até o diretório back-end e execute:
+
+        bash
+
+    cd back-end
+    npm install
+
+    Navegue até o diretório front-end e execute:
+
+    bash
+
+        cd ../front-end
+        npm install
+
+    Passo 2: Rodar o Projeto
+
+    Após instalar as dependências, você pode iniciar todo o sistema utilizando o Docker.
+
+        Certifique-se de estar no diretório back-end:
+
+        bash
+
+    cd ../back-end
+
+    Inicie a aplicação com o Docker Compose:
+
+    bash
+
+        docker compose up
+
+    Nota: Certifique-se de que o MySQL Workbench ou qualquer outra instância do MySQL não esteja rodando na sua máquina para evitar conflitos de porta com o container do MySQL.
+
 
