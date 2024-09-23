@@ -44,14 +44,13 @@ This fullstack project leverages a powerful and modern tech stack:
 
         Navigate to the back-end directory and run:
 
-        bash
+
 
     cd back-end
     npm install
 
     Navigate to the front-end directory and run:
 
-    bash
 
         cd ../front-end
         npm install
@@ -62,13 +61,12 @@ This fullstack project leverages a powerful and modern tech stack:
 
         Make sure you are in the back-end directory:
 
-        bash
+
 
     cd ../back-end
 
     Start the application using Docker Compose:
 
-    bash
 
         docker compose up
 
@@ -122,16 +120,15 @@ Este projeto fullstack é construído com uma stack poderosa e moderna:
 
         Navegue até o diretório back-end e execute:
 
-        bash
 
-    cd back-end
+
+    cd back-end/
     npm install
 
     Navegue até o diretório front-end e execute:
 
-    bash
 
-        cd ../front-end
+        cd front-end/
         npm install
 
     Passo 2: Rodar o Projeto
@@ -140,13 +137,9 @@ Este projeto fullstack é construído com uma stack poderosa e moderna:
 
         Certifique-se de estar no diretório back-end:
 
-        bash
-
-    cd ../back-end
+    cd back-end/
 
     Inicie a aplicação com o Docker Compose:
-
-    bash
 
         docker compose up
 
