@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import TextField from '@mui/material/TextField';
 import { fourDigitCodeValidation, warningText } from '../utils';
 import { Box, Button, Typography } from '@mui/material';
@@ -18,18 +18,12 @@ export default function Home() {
   async function handleClick() {
     measureService.getCustomerMeasures(inputCode)
     .then((response) => {
-      console.log(response)
       setCustomerData(response)
       setHasSearched(true)
       }).catch((error) => {
       console.log(error)
     })
   }
-
-
-  useEffect(() => {
-   console.log('CDD', customerData)
-  }, [customerData])
 
   return (
     <>

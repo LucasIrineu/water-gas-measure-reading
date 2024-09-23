@@ -38,7 +38,6 @@ export default function UploadComponent() {
                         const { image_url, measure_value, measure_uuid } = response.data
                         const data: IResponse = { image_url, measure_value, measure_uuid }
                         setMeasureResponse(data)
-                        console.log('response no front:', response)
                     }
                 })
                 .catch((error) => {
@@ -65,7 +64,6 @@ export default function UploadComponent() {
             measureService.confirmUpload(measure_uuid, measure_value)
                     .then((response) => {
                         if (response !== undefined) {
-                            console.log('confirmado: ', response.data)
                             setSucess(true)
                             setMeasureResponse(null)
                         }

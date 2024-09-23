@@ -71,12 +71,10 @@ export class MeasureService {
         const Gemini = new GeminiAPI()
         const geminiRes = await Gemini.Generate(file.buffer)
         
-        console.log('body no back:', body)
         if (isValidDateTime(measure_datetime) === false
             || isValidMeasureType(measure_type) === false
             || validUser === false) {
-                console.log('valids:', isValidDateTime(measure_datetime), isValidMeasureType(measure_type), validUser)
-
+               
             return {
                 error_code: 'INVALID_DATA',
                 error_description: 'Os dados fornecidos no corpo da requisição são inválidos'
